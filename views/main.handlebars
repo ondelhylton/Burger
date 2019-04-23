@@ -1,0 +1,35 @@
+{{!-- Setup the main.handlebars file so it's able to be used by Handlebars.
+
+
+Setup the index.handlebars to have the template that Handlebars can render onto.
+
+
+Create a button in index.handlebars that will submit the user input into the database. --}}
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Burgers for my Belly (Now and Later)</title>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<script src="https://code.jquery.com/jquery.js"></script>
+<script src="/assets/burgerJs.js"></script>
+</head>
+<body>
+
+	<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-4">>Burgers for my Belly</h1>
+    <p class="lead">Select or create burgers to eat now or later</p>
+  </div>
+</div>
+		{{{ body }}}
+	</body>
+</html>
